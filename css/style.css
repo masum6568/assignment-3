@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .header{
     background-color: #264653;
 }
@@ -10,7 +13,7 @@
 
 
 
-
+/* bike style */
 .first-bike img{
     filter: grayscale(100%);
     width: 288px;
@@ -36,21 +39,21 @@ h1 span{
 .card{
     width: 322px;
     height: 478px;
+    padding-bottom: 20px;
 }
 .card-text{
     padding:30px;
 }
 .fa-star.filled{
     color:#E77C40;
-    margin-bottom: 15px;
+
+ 
     
 }
 .bankar{
     color:#23A6F0;
 }
-/* .row{
-    display: flex; */
-}
+
 
 /* Accordion style added */
 
@@ -81,5 +84,8 @@ h1 span{
 .picture{
     width: 431px;
     height: 423px;
-    position:absolute;
+ 
+    margin-top: 15px;
+
+ 
 }
